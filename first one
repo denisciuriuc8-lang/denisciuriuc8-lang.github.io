@@ -1,0 +1,147 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maple & Thread | Store Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4a5d4e;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .post {
+      background: white;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+    .post h2 {
+      margin-top: 0;
+      color: #4a5d4e;
+    }
+
+    .post .date {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    nav {
+      background: #3f4f43;
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Maple & Thread</h1>
+    <p>A small store with warm things and cooler stories</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="post">
+      <h2>Welcome to Maple & Thread</h2>
+      <div class="date">January 12, 2026</div>
+      <p>
+        Maple & Thread started as a tiny idea on a rainy afternoon. We wanted
+        a place that felt warm, familiar, and just a little handmade.
+      </p>
+      <p>
+        This blog is where we share store updates, behind-the-scenes stories,
+        and little moments that make running a small shop special.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Our Favorite Products This Month</h2>
+      <div class="date">January 18, 2026</div>
+      <p>
+        This month we’re obsessed with our new knit blankets, ceramic mugs,
+        and locally sourced candles. They’ve quickly become customer favorites.
+      </p>
+      <p>
+        Stop by the store or keep an eye on this blog—we’ll be sharing how
+        these items are made and who makes them.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Why Small Stores Matter</h2>
+      <div class="date">January 25, 2026</div>
+      <p>
+        Small stores aren’t just about products—they’re about people,
+        stories, and community. Every purchase supports artists, makers,
+        and local dreams.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Maple & Thread · All rights reserved
+  </footer>
+
+</body>
+</html>
